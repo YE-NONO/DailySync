@@ -1,6 +1,6 @@
 name: Migrate Garmin CN to Garmin Global
 
- on:
+on:
    workflow_dispatch:
 env:
   BARK_KEY: ${{ secrets.BARK_KEY }}
